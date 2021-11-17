@@ -1,0 +1,19 @@
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    &-item{
+      display: inline-block;
+      width: 55px;
+      min-width: 55px;
+      height: 55px;
+      margin: 0 5px;
+      line-height: 55px;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+    }
+}

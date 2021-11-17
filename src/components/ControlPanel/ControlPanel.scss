@@ -1,0 +1,11 @@
+.panel {
+    width: 100%;
+    max-width: 360px;
+    margin: 20px auto 0;
+	&-holder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+}

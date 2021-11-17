@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { interval, Subject } from "rxjs";
 import { takeUntil } from "rxjs/operators";
 
-import Timer from './Timer/Timer';
-import Buttons from './Buttons/Buttons';
+import Timer from '../Timer/Timer';
+import ControlPanel from '../ControlPanel/ControlPanel';
 
 
 function Stopwatch() {
@@ -64,12 +64,9 @@ function Stopwatch() {
               <Timer
                   time={time}
               />
-              <Buttons
-                  start={handleStart}
-                  stop={handleStop}
-                  wait={handleWait}
-                  reset={handleReset}
-                  status={status}
+              <ControlPanel
+                actions={{handleStart, handleStop, handleWait, handleReset}}
+                status={status}
               />
             </div>
           </div>
