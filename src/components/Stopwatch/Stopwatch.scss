@@ -1,0 +1,29 @@
+.stopwatch {
+  width: 100%;
+  padding: 0 15px 15px;
+  &-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    &__item{
+      display: inline-block;
+      width: 55px;
+      min-width: 55px;
+      height: 55px;
+      margin: 0 5px;
+      line-height: 55px;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+    }
+  }
+}

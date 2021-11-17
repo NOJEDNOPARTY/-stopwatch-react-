@@ -1,0 +1,8 @@
+{
+  "short_name": "Stopwatch",
+  "name": "Create React App: Stopwatch",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
